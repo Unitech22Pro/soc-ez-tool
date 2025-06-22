@@ -2,7 +2,7 @@ import re
 import requests
 import time
 
-API_KEY = "37ba19352d74ee376fcbb76b7b069b3038a836c2d3d5648f2653e852899fe845"
+API_KEY = "API_KEY_HERE"
 
 def check_ip_virustotal(ip):
     url = f"https://www.virustotal.com/api/v3/ip_addresses/{ip}"
